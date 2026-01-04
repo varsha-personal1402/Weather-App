@@ -6,7 +6,7 @@ const Weather = () => {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
 
-  const API_KEY = "8a37036beaade1f9892aa5743c8669aa"; // replace with your OpenWeatherMap API key
+  const API_KEY = "8a37036beaade1f9892aa5743c8669aa"; 
 
   const handleCityChange = (event) => {
     setCity(event.target.value);
